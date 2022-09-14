@@ -68,11 +68,23 @@ flutter:
       fonts:
       - asset: assets\GoogleFonts\Pacifico-Regular.ttf
 
+    - family: BebasNeue
+      fonts:
+      - asset: assets\GoogleFonts\BebasNeue-Regular.ttf
+
+    - family: Headbears
+      fonts:
+      - asset: assets\GoogleFonts\headbears-headbears-400.ttf
+
+    - family: Dirtchunk
+      fonts:
+      - asset: assets\GoogleFonts\dirtchunk-dirtchunk-regular-400.ttf
+
    
 
   # To add assets to your application, add an assets section, like this:
   assets:
-   - assets\Wallpapers\wall.jpg
+   - assets/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -7,7 +7,8 @@ void main() {
       appBar: AppBar(
         title: const Text(
           "Mi primera aplicación 190292",
-          style: TextStyle(fontFamily: 'Pacifico', color: Colors.blueGrey),
+          style: TextStyle(
+              fontFamily: 'Dirtchunk', color: Colors.white, fontSize: 45),
         ),
         elevation: 0,
         backgroundColor: Colors.transparent,
@@ -17,7 +18,8 @@ void main() {
       body: Container(
         decoration: const BoxDecoration(
             image: DecorationImage(
-                image: AssetImage('assets/wall.png'), fit: BoxFit.fill)),
+                image: AssetImage('image/background/background7.png'),
+                fit: BoxFit.fill)),
       ),
     ),
   );
